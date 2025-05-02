@@ -8,7 +8,7 @@ $ conda create -n k2-19 jax conda-forge::numpyro pandas "numpy<2.0" matplotlib i
 # Then install our dependences
 pip install jnkepler
 
-conda install conda-forge::corner seaborn dill
+conda install conda-forge::corner seaborn dill jupyter 
 
 # I got the following qt error.
 
